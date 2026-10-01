@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { AppProvider, useApp } from './store/useStore';
 import Landing from './pages/Landing';
 import Dashboard from './pages/Dashboard';
